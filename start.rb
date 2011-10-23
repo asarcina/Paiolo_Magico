@@ -34,10 +34,5 @@ puts "Bye Bye!"
 
 =begin
 
-puts " Inserisci n° concorso data(gg/mm/aaaa) sei numeri più jolli e superstar"
-line=gets
 
-new_extraction = Extraction.new
-new_extraction.set_from_input(line)
-new_extraction.save
 =end

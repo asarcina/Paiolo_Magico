@@ -5,6 +5,13 @@ require 'rubygems'
 class Actions
   def initialize
   end
+  
+  def insert_only_one (line)
+    
+    new_extraction = Extraction.new
+    new_extraction.set_from_input(line)
+    new_extraction.save
+  end
 
   def insert_all_from_file (path)
 
