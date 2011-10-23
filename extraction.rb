@@ -1,16 +1,15 @@
-require 'rubygems'  
-require 'active_record' 
- 
-ActiveRecord::Base.establish_connection(  
-:adapter => "mysql",  
-:host => "localhost", 
+require 'rubygems'
+require 'active_record'
+
+ActiveRecord::Base.establish_connection(
+:adapter => "mysql",
+:host => "localhost",
 :username => 'root',
-:password => '123456', 
-:database => "paiolo"  
-)  
+:password => '123456',
+:database => "paiolo"
+)
 
 class Extraction < ActiveRecord::Base
-      
   def set_from_input(line)
 
     input=line.split
@@ -25,5 +24,5 @@ class Extraction < ActiveRecord::Base
     self.n_j=input[8]
     self.n_s=input[9]
   end
-  
+
 end
