@@ -1,0 +1,23 @@
+#----------
+	1
+#----------
+-Calcolo frequenze ogni singolo numero:
+	-frequenze totali su tutte estrazini
+	-frequenze annuali
+	-frequenze mensili
+	-capacità di mostrare più frequenti e meno frequenti
+
+#----------
+	2
+#----------
+-calcolo ritardi - numero estrazioni che salta:
+	-ritardo max e min per tutti i numeri per tutte le estrazioni
+	-ritardo max e min per tutti i numeri per anno
+	-ritardo max e min per tutti i numeri per mese
+	-ritardo attuale per ogni numero	
+	-capacità di mostrare risultati ottenuti
+
+#----------
+	3
+#----------	
+-Esegue le stesse operazioni precendentemente descitte ma per colonna...le singole estrazioni.

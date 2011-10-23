@@ -5,9 +5,9 @@ require 'rubygems'
 class Actions
   def initialize
   end
-  
+
   def insert_only_one (line)
-    
+
     new_extraction = Extraction.new
     new_extraction.set_from_input(line)
     new_extraction.save
@@ -28,4 +28,7 @@ class Actions
     file.close
     end
 
+def magic
+  
+end
 end
